@@ -3,7 +3,7 @@
 */
 
 // Pin where the LED is connected
-int led = 7;
+int led = 9;
 
 // Brightness of the LED
 int brightness = 0;
