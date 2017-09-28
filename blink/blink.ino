@@ -24,10 +24,7 @@ void loop() {
   delay(del);
 
   del += change;
-  switch (del) {
-    case 0:
-    case 1000:
-      change = -change; // When reaching one of the limits, reverse the change
-      break;
+  if (del == 0 || del == 1000) {
+    change = -change;// When reaching one of the limits, reverse the change
   }
 }
